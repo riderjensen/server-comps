@@ -2,7 +2,7 @@
 
 ## MVC
 
-![MVC Picture](https://imgur.com/Dwn0ohO)
+![MVC Picture](/pictures/mvc.jpg)
 
 1. The client makes a request
 2. The server moves it to the correct route
@@ -23,7 +23,7 @@ Important things to note:
 
 ## Rest API
 
-![REST Picture](https://imgur.com/38MBxcY)
+![REST Picture](/pictures/rest.jpg)
 
 1. The client makes a request
 2. The server sends back the appropriate information
@@ -52,7 +52,7 @@ Important things to note:
 
 ## GraphQL
 
-![GraphQL Picture](https://imgur.com/15fg2iZ)
+![GraphQL Picture](/pictures/graphql.jpg)
 
 
 
