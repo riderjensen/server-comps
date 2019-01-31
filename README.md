@@ -2,7 +2,7 @@
 
 ## MVC
 
-Model view controller has been the default way to create web applications for a long time
+![MVC Picture](https://imgur.com/Dwn0ohO)
 
 1. The client makes a request
 2. The server moves it to the correct route
@@ -23,7 +23,7 @@ Important things to note:
 
 ## Rest API
 
-While the MVC has one server working on all the work, Rest APIs have at least two servers. There is a server that is your front end and the server that is your API.
+![REST Picture](https://imgur.com/38MBxcY)
 
 1. The client makes a request
 2. The server sends back the appropriate information
@@ -51,6 +51,10 @@ Important things to note:
 * Trying to redo routes can be difficult and time consuming and resource intense on the team when you need to change the architecture
 
 ## GraphQL
+
+![GraphQL Picture](https://imgur.com/15fg2iZ)
+
+
 
 GraphQL feels like a type of Rest API even though it isnt. It is a Query Language which is to say that it is a way to ask the server for something very specific and get hat thing back. Most likely you will have the same set up as a Rest API (see the numbered list above under Rest API section.
 
