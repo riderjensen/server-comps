@@ -11,6 +11,10 @@ Model view controller has been the default way to create web applications for a 
 5. Views are pages that you have created before hand and are stored on the server
 6. Dynamic content can be rendered inside these pages with EJS, Handlebars, Pug, etc
 
+Important things to note:
+* Routing is handled on the server by the application
+* Sessions/cookiesare used with requests to have history that the server uses (auth tokens, session tokens)
+
 ### Pros
 * Central development
 ### Cons
@@ -29,14 +33,16 @@ While the MVC has one server working on all the work, Rest APIs have at least tw
 6. The controller does what work that it needs to do and returns JSON information
 7. The client now has the JSON information and parses it and does what it needs to
 
+Important things to note:
+* Routing is handled on the client
+* Each request is treated individually and the server holds no past information of requests - stateless
+
 ### Pros
 * Parallel team development
 * Faster development cycle
 * Separation of concerns - business logic and presentation are seperate
 * Allow focus on individual peices and the ability to change one without interfering with the other
 * Pages dont have to releod all the time and instead routing is handled within the client side
-* Stateless - each request is treated as its very own request with no information needing to be stored from the previous request
-* Uniform responses
 
 ### Cons
 * Large amounts of data sometimes - data that you dont need - Overfetching (extra network usage that you dont need plus client parsing)
