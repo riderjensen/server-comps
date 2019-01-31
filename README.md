@@ -42,6 +42,7 @@ While the MVC has one server working on all the work, Rest APIs have at least tw
 * Large amounts of data sometimes - data that you dont need - Overfetching (extra network usage that you dont need plus client parsing)
 * May cause waterfall calls for data (e.g. call the title of a book, then the author, then the first chapter, etc)
 * Many different connection areas and routes returning different things
+* Trying to redo routes can be difficult and time consuming and resource intense on the team when you need to change the architecture
 
 ## GraphQL
 
