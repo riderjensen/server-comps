@@ -41,10 +41,13 @@ While the MVC has one server working on all the work, Rest APIs have at least tw
 ### Cons
 * Large amounts of data sometimes - data that you dont need - Overfetching (extra network usage that you dont need plus client parsing)
 * May cause waterfall calls for data (e.g. call the title of a book, then the author, then the first chapter, etc)
+* Many different connection areas and routes returning different things
 
 ## GraphQL
 
-GraphQL feels like a type of Rest API even though it isnt. It is a Query Language which is to say that it is a way to ask the server for something very specific and get hat thing back. The main thing to know about GraphQL is that it helps with the cons we mentioned about Rest APIs. When querying a Rest API, you may get so much more information than you need. Perhaps you only need the title of all posts but the API is set up to return body, user, time, etc. All of that is useless information to you if you only need the title. GraphQL allows you to query only for the specific information that you need
+GraphQL feels like a type of Rest API even though it isnt. It is a Query Language which is to say that it is a way to ask the server for something very specific and get hat thing back. Most likely you will have the same set up as a Rest API (see the numbered list above under Rest API section.
+
+The main thing to know about GraphQL is that it helps with the cons we mentioned about Rest APIs. When querying a Rest API, you may get so much more information than you need. Perhaps you only need the title of all posts but the API is set up to return body, user, time, etc. All of that is useless information to you if you only need the title. GraphQL allows you to query only for the specific information that you need
 
 ### Pros
 * Use one route for all requests
